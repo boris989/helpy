@@ -156,6 +156,8 @@ gem 'best_in_place', '~> 3.1'
 # Add onboarding component
 gem 'helpy_onboarding', git: 'https://github.com/helpyio/helpy_onboarding', branch: 'master'
 gem 'helpy_imap', git: 'https://github.com/helpyio/helpy_imap', branch: 'master'
+gem 'puma'
+gem 'dotenv-rails'
 
 group :development, :test do
   # Audit Gemfile for security vulnerabilities
@@ -170,6 +172,10 @@ group :development, :test do
   gem 'scss-lint'
   gem 'awesome_print'
   gem 'rb-readline'
+  gem 'capistrano', require: false
+  gem 'capistrano-rvm', require: false
+  gem 'capistrano-rails', require: false
+  gem 'capistrano3-puma', require: false
 end
 
 gem 'bulk_insert'

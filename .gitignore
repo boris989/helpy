@@ -38,3 +38,5 @@ public/uploads
 /postgres
 
 /.fossa.yml
+.idea
+.env
