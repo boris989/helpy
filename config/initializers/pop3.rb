@@ -1,0 +1,1 @@
+Griddler.adapter_registry.register(:pop3, Griddler::Pop3::Adapter)
