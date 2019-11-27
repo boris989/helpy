@@ -158,6 +158,7 @@ gem 'helpy_onboarding', git: 'https://github.com/helpyio/helpy_onboarding', bran
 gem 'helpy_imap', git: 'https://github.com/helpyio/helpy_imap', branch: 'master'
 gem 'puma'
 gem 'dotenv-rails'
+gem 'whenever', require: false
 
 group :development, :test do
   # Audit Gemfile for security vulnerabilities
